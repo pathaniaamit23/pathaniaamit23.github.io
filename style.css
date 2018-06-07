@@ -1,0 +1,66 @@
+
+header h1{
+	color: white;
+	margin-top:30px;
+	margin-left: 400px;
+	padding:20px 20px 20px 20px;
+}
+body{
+	background-color:#222222;
+}
+.col>h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3em;
+	transition:1.2s;
+	
+}
+.col>h1:hover{
+	
+	transform: scale(1.2);
+}
+hr {
+  max-width: 1100px;
+  border-width: 4px;
+  border-color: white; 
+  transition:1.2s;
+}
+hr:hover{
+	color:#059EC2;
+	transform: scale(1.2);
+}
+.jumbotron{
+	max-height: 300px;
+	max-width: 400px;
+	margin-top:-130px;
+	margin-left: 100px;
+	padding:20px 20px 20px 20px; 
+	
+	
+
+}
+
+.btn-primary{
+	
+	
+	padding: 5px;
+    
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+	border-radius: 50%;
+	transition: 1s;
+
+}
+.flex-container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin-top: 250px;
+}
+.btn-primary:hover{
+
+	transform: translateX(50px);
+	background-color:transparent;
+}
